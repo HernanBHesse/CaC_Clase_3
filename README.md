@@ -1,7 +1,7 @@
-# CaC_Clase_1
+# CaC_Clase_2
 
 ### Codo a Codo 4.0 - React JS
 
 ### Autor: Hernán Bustamante Hesse
 
-Creación de archivo html y vinculación con un repositorio en github.
+Implementación de bootstrap, css, js al proyecto
