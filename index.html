@@ -44,13 +44,23 @@
       </nav>
     </header>
     <main class="main_home">
-      <h2>Main</h2>
-      <ul class="list-group">
-        <li class="list-group-item"><p>Link 1</p></li>
-        <li class="list-group-item"><p>Link 2</p></li>
-        <li class="list-group-item"><p>Link 3</p></li>
-        <li class="list-group-item"><p>Link 4</p></li>
-      </ul>
+      <h2>Lista de videos</h2>
+      <form id="formulario" class="formulario">
+        <label for="numberOfVideos" class="form__label"
+          >Ingrese la cantidad</label
+        >
+        <input
+          type="number"
+          min="1"
+          max="4"
+          name="numberOfVideos"
+          class="form__input"
+          required
+        />
+        <input type="submit" class="form__input form__input--submit" />
+      </form>
+      <br />
+      <ul class="list-group" id="listOfVideos"></ul>
     </main>
     <footer Class="site_footer">
       <h3>© HBH 2022</h3>
